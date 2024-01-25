@@ -2,11 +2,11 @@
 title: Docker部署ZeroTierMoon服务
 tags: [内网穿透]
 categories: [ZeroTier]
-cover: /assets/xaoxuu/blog/2020-0927a@1x.svg
+cover: https://file.zfjyc.cn/file/static/zerotier_banner_repeat_1706085226336__310906.webp
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
+  topic: 
+  headline: Docker部署ZeroTierMoon服务
+  caption: 
   color: white
 banner: https://file.zfjyc.cn/file/static/zerotier_banner_repeat_1706085226336__310906.webp
 date: 2024-01-24 15:55:10
@@ -15,7 +15,7 @@ references:
   - '[✨docker-zerotier-moon](https://github.com/rwv/docker-zerotier-moon)'
 ---
 
-{% hashtag ZeroTiercolor:yellow%}
+{% hashtag ZeroTier color:yellow%}
 
 {% quot 部署 %}
 

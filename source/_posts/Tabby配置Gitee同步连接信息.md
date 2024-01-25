@@ -7,8 +7,8 @@ poster:
   color: white
 date: 2024-01-11 07:51:05
 description:
-cover: https://file.zfjyc.cn/file/blog/b3698dea6520b70d4c4b.png
-banner: https://file.zfjyc.cn/file/blog/20240111213624.png
+cover: https://file.zfjyc.cn/file/static/b3698dea6520b70d4c4b_repeat_1706149707777__853124.png
+banner: 
 pin: true
 ---
 

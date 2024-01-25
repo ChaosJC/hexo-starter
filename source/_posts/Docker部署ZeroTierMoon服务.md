@@ -21,7 +21,7 @@ references:
 
 - **拉取ZeroTier Moon镜像**
   
-  {% copy docker pull seedgou/zerotier-moon | sh prefix:$ %}
+  {% copy docker pull seedgou/zerotier-moon prefix:$ %}
   
   {% image https://file.zfjyc.cn/file/static/20240124160036_repeat_1706083237283__775153.png bg:var(--card) padding:16px %}
 
@@ -33,10 +33,10 @@ references:
   
     {% image https://file.zfjyc.cn/file/static/20240124172348_repeat_1706088229494__101486.png bg:var(--card) padding:16px %}
     
-    {% mark 关键命令注解 color:red %}
+    {% mark 参数注释 color:red %}
     
     - {% u -p 10002:9993/udp %} 映射监听端口 外部端口:容器内监听端口，默认监听9993UDP端口不需要修改，如果需要改其他端口直接修改命令中的{% mark 两个10002 color:warning %} 端口即可
-    - {% u -v %} 挂载配置文件夹使配置持久化，防止重新创建时MoonID改变
+    - {% u -v %} 将主机的{% mark /home/docker/zerotier-moon color:warning %}挂载到容器的{% mark /var/lib/zerotier-one  color:warning %} 使配置持久化，防止重新创建时MoonID改变
     - {% u -4 %} 外网IP地址，目前不支持域名的方式
 
 {% quot 加入Moon节点 %}
